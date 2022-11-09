@@ -1,0 +1,1044 @@
+.about{
+    max-width: 100%;
+    overflow: hidden;
+    .first-page{
+        width: 100%;
+        height:100vh;
+        position: relative;
+        &-bg{
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-title{
+            width: fit-content;
+            position: absolute;
+            bottom:5vw;
+            right: 5vw;
+            h2{
+                color: #fff;
+                font-weight: 450;
+              
+            }
+            .imgBox{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: -13.5vw;
+                right: 4vw;
+                width: 12vw;
+                height: fit-content;
+               
+                img{
+                    top: 0;
+                    width: 100%;
+                }
+                .para{
+                    position: absolute;
+              
+                    h2,h4{
+                        color: #fff;
+                        line-height: 2.4vw;
+                        text-align: center;
+                    }
+                    h4{
+                        letter-spacing: 0.25vw;
+                        font-weight: normal;
+          
+                    }
+                }
+             
+                
+            }
+        }
+        
+    }
+    .second-page{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 85%;
+        margin: 0 auto;
+        height: 50vw;
+        &-left{
+            display: flex;
+            align-items: center;
+            width: 60%;
+            height: 100%;
+            padding-top:5.2vw;
+            .imgBox{
+                position: relative;
+                height: 75%;
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                &::after{
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    top: 10px;
+                    right: -15px;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    border: 1px solid #9F9F9F;
+                }
+              
+            }
+        }
+        &-right{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            height: 100%;
+            padding-top:5.2vw;
+            &-para{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: fit-content;
+                height: 75%;
+                padding-top: 1.5vw;
+                &-para2{
+                    margin: 2vw 0;
+                }
+                &-para1{
+                    & :nth-child(2){
+                        margin-right: 1vw;
+                    }
+                    & :nth-child(6){
+                        margin-right: 1vw;
+                    }
+                    & :nth-child(8){
+                        margin-right: 1vw;
+                    }
+                }
+            }
+        }
+        &-bg{
+            position: absolute;
+            right: -13%;
+            bottom: -22%;
+            width: 20%;
+        
+        }
+    }
+   
+    .third-page{
+        display: flex;
+        position: relative;
+        width: 85%;
+        height: 50vw;
+        margin: 0 auto;
+        margin-bottom: 5vw;
+        &-right{
+            display: flex;
+            align-items: center;
+            flex: 0 0 60%;
+            .imgBox{
+                width: 100%;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                &::after{
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    top: 10px;
+                    right: -15px;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    border: 1px solid #9F9F9F;
+                }
+                
+            }
+        }
+        &-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 40%;
+        
+            &-para{
+          
+                width:85%;
+                h2{
+                    margin-bottom: 1.5vw;
+                }
+                p{
+                    text-align: justify;
+                    width: 88%;
+                }
+            }
+        }
+        &-bg{
+            position: absolute;
+            width: 45%;
+            left: -9%;
+            bottom: 0;
+        }
+    }
+    .forth-page{
+        display: flex;
+        width: 85%;
+        height: 50vw;
+        margin:0 auto ; 
+        justify-content: space-between;
+        align-items: center;
+        &-left{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            flex: 0 0 60%;
+            height: 100%;
+            margin: 0 auto;
+            &-box{
+                
+                width: fit-content;
+            
+                img{
+                
+                    width: 80%;
+               
+           
+                }
+                .box{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    width: 8vw;
+                    height: 8vw;
+                    border: 1px solid $blue_color;
+                    position: absolute;
+                }
+                & :nth-child(2){
+                    top: 9vw;
+                    left: 42%;
+                    img{
+                        width: 55%;
+                    }
+                }
+                & :nth-child(3){
+                    top: 20vw;
+                    left: 9vw;
+                    img{
+                        width: 40%;
+                    }
+             
+                }
+                & :nth-child(4){
+                    top: 20vw;
+                    right:9.12vw;
+                    img{
+                        width: 50%;
+                    }
+                  
+                }
+                & :nth-child(5){
+                    bottom: 9vw;
+                    left: 42.5%;
+                    img{
+                        width: 50%;
+                    }
+                  
+                }
+                
+                .line{
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    position: absolute;
+                   
+                    .straight{
+                        width: 0.3%;
+                        
+                        transform: scale(0.5,0.25) translate(50.8vw,81vw);
+                     }
+                     .straight2{
+                        width: 0.3%;
+                        transform: scale(0.5,0.25) translate(50vw,37.2vw);
+                     }
+                     .left-bottom{
+                        width: 12.98%;
+                        position: absolute;
+                        left: 16.4vw;
+                        top:16.2vw;
+                     }
+                     .right-bottom{
+                        width: 13.2%;
+                        position: absolute;
+                        left: 28vw;
+                        top:16vw;
+                     }
+                     .path-left{
+                        width: 12.8%;
+                        position: absolute;
+                        left: 14vw;
+                        top:29vw;
+                     }
+                     .path-right{
+                        width: 13%;
+                        position: absolute;
+                        left: 30.6vw;
+                        top:29vw;
+                     }
+                }
+            
+     
+            }
+           
+        }
+        &-right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 0 0 40%;
+            height: 100%;
+            ul{
+                width: 90%;
+                margin: 0 auto;
+                li{
+                    margin-bottom: 3vw;
+                    .para1{
+                        display: flex;
+                        margin-bottom: 2vw;
+                        img{
+                            width: 7%;
+                            margin-right: 1.5vw;
+                        }
+                    }
+                  
+                }
+            }
+        }
+    }
+    .fifth-page{
+        width: 85%;
+        height: 55vw;
+        margin: 0 auto;
+        position: relative;
+        &-top{
+            width: 100%;
+            .imgBox{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+               
+            }
+        }
+        &-bottom{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            &-para{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 60%;
+                h2{
+                    margin: 1.5vw;
+                }
+            }
+            
+        }
+        &-bg{
+            position: absolute;
+            right: -8.9%;
+            bottom: 0;
+            width:18%;
+          
+        }
+    }
+}
+
+@media all and (max-width:1380px){
+    .about{
+        .first-page{
+          height: 75vw;
+        
+        &-title{
+            width:fit-content;
+            position: absolute;
+            bottom: 11vw;
+  
+            z-index: 10;
+            h2{
+                color: #fff;
+                font-weight: 450;
+               
+               
+            }
+           
+        }
+        }
+    }
+    @media all and (max-width:1024px){
+        .about{
+            
+            .first-page{
+                width: 100%;
+                height:85vw;
+       
+                &-title{
+                    width: fit-content;
+                    position: absolute;
+                    bottom: 15vw;
+                    right: 2.5vw;
+                    h2{
+                        color: #fff;
+                        font-weight: 450;
+                      
+                    }
+                    .imgBox{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -28vw;
+                        right: 4vw;
+                        width: 25vw;
+                        height: fit-content;
+                        img{
+                            top: 0;
+                            width: 100%;
+                        }
+                        .para{
+                            position: absolute;
+                      
+                            h2,h4{
+                                color: #fff;
+                                line-height: 5vw;
+                                text-align: center;
+                            }
+                            h4{
+                                letter-spacing: 0.4vw;
+                                font-weight: normal;
+                              
+                            }
+                        }
+                     
+                        
+                    }
+                }
+                
+            }
+            .second-page{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+    
+                width: 85%;
+                margin: 0 auto 15vw;
+                height: fit-content;
+                &-left{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: fit-content;
+                    padding-top:5.2vw;
+                    .imgBox{
+                        position: relative;
+                        height:100;
+                        width: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    
+                      
+                    }
+                }
+                &-right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    width: 100%;
+                    height: fit-content;
+                    padding-top:5.2vw;
+                    &-para{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        width: fit-content;
+                        height: fit-content;
+                        padding-top: 1.5vw;
+                       
+                        &-para3{
+                            p{
+                                br{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                &-bg{
+                    position: absolute;
+                    right: -13%;
+                    bottom: -22%;
+                    width: 20%;
+                
+                }
+            }
+           
+            .third-page{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                width: 85%;
+                height: fit-content;
+                margin: 0 auto 25vw;
+
+                &-right{
+                    display: flex;
+                    order: -1;
+                    align-items: center;
+                    flex: 0 0 100%;
+             
+                }
+                &-left{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex: 0 0 100%;
+                
+                    &-para{
+                        margin-top: 5vw;
+                        width:100%;
+                        h2{
+                            margin-bottom: 1.5vw;
+                        }
+                        p{
+                            text-align: justify;
+                            width: 100%;
+                        }
+                    }
+                }
+                &-bg{
+                    position: absolute;
+                    width: 45%;
+                    left: -9%;
+                    bottom: -15vw;
+                }
+            }
+            .forth-page{
+                display: flex;
+                flex-direction: column;
+                width: 85%;
+                height: fit-content;
+                margin:0 auto 10vw; 
+                justify-content: space-between;
+                align-items: center;
+                &-left{
+                    display: flex;
+                    position: relative;
+                    justify-content: center;
+                    align-items: center;
+                    flex: 0 0 100%;
+                    height: fit-content;
+                    margin: 20vw auto 35vw;
+                    &-box{
+                        
+                        width: fit-content;
+                    
+                        img{
+                        
+                            width: 100%;
+                       
+                   
+                        }
+                        .box{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            width: 14vw;
+                            height: 14vw;
+                            border: 1px solid $blue_color;
+                            position: absolute;
+                        }
+                     
+                        & :nth-child(2){
+                            top: -28vw;
+                            left: 7%;
+                            img{
+                                width: 55%;
+                            }
+                        }
+                        & :nth-child(3){
+                           
+                            top: -4.3vw;
+                            left: 150%;
+                            img{
+                                width: 50%;
+                            }
+                        }
+                        & :nth-child(4){
+                            top: -4vw;
+                            right:25vw;
+                            img{
+                                width: 50%;
+                            }
+                          
+                        }
+                        & :nth-child(5){
+                            top: 20vw;
+                            left: 1.6vw;
+                            img{
+                                width: 40%;
+                            }
+                          
+                        }
+                        
+                        .line{
+                            width: 100%;
+                            height: 100%;
+                            left: 0;
+                            top: 0;
+                            position: absolute;
+                           
+                            .straight{
+                                width: 0.7%;
+                                transform: scale(1,0.6) translate(8.5vw,-29vw);
+                             
+                             }
+                             .straight2{
+                                width: 0.6%;
+                                transform: scale(1,0.8) translate(7.5vw,7.2vw);
+                             }
+                             .left-bottom{
+                                width: 90%;
+                                position: absolute;
+                                left: -10.3vw;
+                                top:-15vw;
+                             }
+                             .right-bottom{
+                                width: 91%;
+                                position: absolute;
+                                left: 12vw;
+                                top:-15.1vw;
+                             }
+                             .path-left{
+                                width: 80%;
+                                position: absolute;
+                                left: -13.5vw;
+                                top:11vw;
+                             }
+                             .path-right{
+                                width: 80%;
+                                position: absolute;
+                                left: 17.5vw;
+                                top:11.5vw;
+                             }
+                        }
+                    
+             
+                    }
+                   
+                }
+                &-right{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex: 0 0 40%;
+                    height: fit-content;
+                    ul{
+                        width: 100%;
+                        margin: 0 auto;
+                        li{
+                       
+                            .para1{
+                                display: flex;
+                                margin-bottom: 3vw;
+                                img{
+                                    width: 7%;
+                                    margin-right: 1.5vw;
+                                }
+                            }
+                            .para2{
+                                p{
+                                    letter-spacing: 0.8vw;
+                                    line-height: 5vw;
+                                }
+                            }
+                        
+                        }
+                        & > :not(:last-child){
+                            margin-bottom: 5vw;
+                        }
+                    }
+                }
+            }
+            .fifth-page{
+                width: 85%;
+                height: fit-content;
+                margin: 0 auto 15vw;
+                position: relative;
+                &-top{
+                    width: 100%;
+                    .imgBox{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                       
+                    }
+                }
+                &-bottom{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
+                    &-para{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        width: 100%;
+                        h2{
+                            margin: 3vw 0;
+                        }
+                    }
+                    
+                }
+                &-bg{
+                    position: absolute;
+                    right: -8.9%;
+                    bottom: -20vw;
+                    width:18%;
+                  
+                }
+            }
+        }
+        @media all and (max-width:920px){
+            .about{
+                
+                .first-page{
+                    width: 100%;
+                    height:150vw;
+           
+                    &-title{
+                        width: fit-content;
+                        position: absolute;
+                        bottom: 35vw;
+                        right: 2.5vw;
+                        h2{
+                            color: #fff;
+                            font-weight: 450;
+                          
+                        }
+                        .imgBox{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            position: absolute;
+                            top: -28vw;
+                            right: 4vw;
+                            width: 25vw;
+                            height: fit-content;
+                            img{
+                                top: 0;
+                                width: 100%;
+                            }
+                            .para{
+                                position: absolute;
+                          
+                                h2,h4{
+                                    color: #fff;
+                                    line-height: 5vw;
+                                    text-align: center;
+                                }
+                                h4{
+                                    letter-spacing: 0.4vw;
+                                    font-weight: normal;
+                                  
+                                }
+                            }
+                         
+                            
+                        }
+                    }
+                    
+                }
+            }
+            @media all and (max-width:480px){
+                .about{
+                    .first-page{
+                        width: 100%;
+                        height:190vw;
+               
+                        &-title{
+                            width: fit-content;
+                            position: absolute;
+                            bottom: 25vw;
+                            right: 2.5vw;
+                            h2{
+                                color: #fff;
+                                font-weight: 450;
+                              
+                            }
+                            .imgBox{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                top: -40vw;
+                                right: 4vw;
+                                width: 35vw;
+                                height: fit-content;
+                                img{
+                                    top: 0;
+                                    width: 100%;
+                                }
+                                .para{
+                                    position: absolute;
+                              
+                                    h2,h4{
+                                        color: #fff;
+                                        line-height: 7vw;
+                                        text-align: center;
+                                    }
+                                    h4{
+                                        letter-spacing: 0.4vw;
+                                        font-weight: normal;
+                                      
+                                    }
+                                }
+                             
+                                
+                            }
+                        }
+                        
+                    }
+                    .second-page{
+                 
+                        &-left{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: fit-content;
+                            padding-top:5.2vw;
+                            .imgBox{
+                                position: relative;
+                                height:100;
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                                &:after{
+                                    right: -10px;
+                                    top:5px
+                                }
+                              
+                            }
+                        }
+                    }
+                   
+                    .third-page{
+                  
+                        &-right{
+                            display: flex;
+                            order: -1;
+                            align-items: center;
+                            flex: 0 0 100%;
+                            .imgBox{
+                                &:after{
+                                    right: -10px;
+                                    top:5px
+                                }
+                            }
+                        }
+                     
+                        &-bg{
+                            position: absolute;
+                            width: 65%;
+                            left: -9%;
+                            bottom: -15vw;
+                        }
+                    }
+                    .forth-page{
+                        display: flex;
+                        flex-direction: column;
+                        width: 85%;
+                        height: fit-content;
+                        margin:0 auto 10vw; 
+                        justify-content: space-between;
+                        align-items: center;
+                        &-left{
+                            display: flex;
+                            position: relative;
+                            justify-content: center;
+                            align-items: center;
+                            flex: 0 0 100%;
+                            height: fit-content;
+                            margin: 20vw auto 35vw;
+                            &-box{
+                                width: fit-content;
+                                h3{
+                                    font-size: 4vw;
+                                    letter-spacing:0.25vw;
+                                    font-weight:500;
+                                    font-family: $title_word_family;
+                                    color: $black_color;
+                                }
+                                img{
+                                
+                                    width: 100%;
+                               
+                           
+                                }
+                                .box{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-radius: 50%;
+                                    width: 14vw;
+                                    height: 14vw;
+                                    border: 1px solid $blue_color;
+                                    position: absolute;
+                                }
+                             
+                                & :nth-child(2){
+                                    top: -28vw;
+                                    left: 7%;
+                                    img{
+                                        width: 55%;
+                                    }
+                                }
+                                & :nth-child(3){
+                                   
+                                    top: -4.3vw;
+                                    left: 150%;
+                                    img{
+                                        width: 50%;
+                                    }
+                                }
+                                & :nth-child(4){
+                                    top: -3.2vw;
+                                    right:25.5vw;
+                                    img{
+                                        width: 50%;
+                                    }
+                                  
+                                }
+                                & :nth-child(5){
+                                    top: 20vw;
+                                    left: 1.6vw;
+                                    img{
+                                        width: 40%;
+                                    }
+                                  
+                                }
+                                
+                          
+                            
+                     
+                            }
+                           
+                        }
+                        &-right{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex: 0 0 40%;
+                            height: fit-content;
+                            ul{
+                                width: 100%;
+                                margin: 0 auto;
+                                li{
+                               
+                                    .para1{
+                                        display: flex;
+                                        margin-bottom: 3vw;
+                                        img{
+                                            width: 7%;
+                                            margin-right: 1.5vw;
+                                        }
+                                    }
+                                    .para2{
+                                        p{
+                                            letter-spacing: 0.8vw;
+                                            line-height: 7vw;
+                                        }
+                                    }
+                                
+                                }
+                                & > :not(:last-child){
+                                    margin-bottom: 5vw;
+                                }
+                            }
+                        }
+                    }
+                    .fifth-page{
+                        width: 85%;
+                        height: fit-content;
+                        margin: 0 auto 15vw;
+                        position: relative;
+                        &-top{
+                            width: 100%;
+                            .imgBox{
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                }
+                               
+                            }
+                        }
+                        &-bottom{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            width: 100%;
+                            &-para{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                width: 100%;
+                                h2{
+                                    margin: 3vw 0;
+                                }
+                                p{
+                                    line-height: 5.5vw;
+                                }
+                            }
+                            
+                        }
+                        &-bg{
+                            position: absolute;
+                            right: -8.9%;
+                            bottom: -20vw;
+                            width:18%;
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

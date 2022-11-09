@@ -1,0 +1,725 @@
+.portfolio{
+    width: 100%;
+    overflow: hidden;
+    .first-page{
+        width: 100%;
+        height:100vh;
+        position: relative;
+        &-bg{
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-title{
+            width: fit-content;
+            position: absolute;
+            bottom: 5vw;
+            right: 5vw;
+            h2{
+                color: #fff;
+                font-weight: 450;
+              
+            }
+            .imgBox{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: -13vw;
+                right: 4vw;
+                width: 12vw;
+                height: fit-content;
+                img{
+                    top: 0;
+                    width: 100%;
+                }
+                .para{
+                    position: absolute;
+                    top: 1.5vw;
+                    h2,h4{
+                        color: #fff;
+                        line-height: 2.4vw;
+                        text-align: center;
+                    }
+                    h4{
+                        letter-spacing: 0.25vw;
+                        font-weight: normal;
+          
+                    }
+                }
+             
+                
+            }
+        }
+        
+    }
+    .second-page{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 85%;
+        margin: 0 auto;
+        height: 50vw;
+        &-left{
+            display: flex;
+            align-items: center;
+            width: 60%;
+            height: 100%;
+            padding-top:5.2vw;
+            .imgBox{
+                position: relative;
+                height: 65%;
+                width: 100%;
+                z-index: 2;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                &::after{
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    top: 10px;
+                    left: -15px;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    border: 1px solid #9F9F9F;
+                }
+            }
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            width: 35%;
+            height: 100%;
+            padding-top:5.2vw;
+            &-para{
+                display: flex;
+                flex-direction: column;
+                height: 75%;
+                padding-top: 1.5vw;
+                justify-content: center;
+                width: 100%;
+             
+                &-para1{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.5vw;
+                    h2{
+                        font-weight: 600;
+                        margin-right: 0.5vw;
+                        color: #0E121D;
+                    }
+                    p{
+                        font-weight: 600;
+                  
+                    }
+                }
+                &-para2{
+                    margin-bottom: 2.5vw;
+                    h3{
+                        margin-bottom: 0.8vw;
+                    }
+                    p{
+                        width: 25vw;
+                    }
+                }
+                .readmore{
+                    display: flex;
+                    
+                    p{
+                        width: 10vw;
+                
+                    }
+                    img{
+                        width: 15%;
+                   
+                    }
+                }
+            }
+        }
+       
+    }
+    .third-page{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 85%;
+        margin: 0 auto;
+        height: 50vw;
+        &-left{
+            display: flex;
+            align-items: center;
+            width: 35%;
+            height: 100%;
+         
+            &-para{
+                display: flex;
+                flex-direction: column;
+                height: 75%;
+                padding-top: 1.5vw;
+                justify-content: center;
+                width: 75%;
+                margin: 0 auto;
+                &-para1{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.5vw;
+                    h2{
+                        font-weight: 600;
+                        margin-right: 0.5vw;
+                        color: #0E121D;
+                    }
+                    p{
+                        font-weight: 600;
+                  
+                    }
+                }
+                &-para2{
+                    margin-bottom: 2.5vw;
+                    h3{
+                        margin-bottom: 0.8vw;
+                    }
+                    p{
+                        width: 25vw;
+                    }
+                }
+                .readmore{
+                    display: flex;
+                    
+                    p{
+                        width: 10vw;
+                     
+                    }
+                    img{
+                        width: 15%;
+                  
+                    }
+                }
+            }
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            width: 60%;
+            height: 100%;
+      
+            .imgBox{
+                position: relative;
+                height: 65%;
+                width: 100%;
+                z-index: 2;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+                &::after{
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    top: 10px;
+                    right: -15px;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    border: 1px solid #9F9F9F;
+                }
+            }
+        }
+      
+       
+    }
+}
+@media all and (max-width:1380px){
+    .portfolio{
+        .first-page{
+          height: 75vw;
+        
+        &-title{
+            width:fit-content;
+            position: absolute;
+            bottom: 11vw;
+  
+            z-index: 10;
+            h2{
+                color: #fff;
+                font-weight: 450;
+               
+               
+            }
+           
+        }
+        }
+    }
+    @media all and (max-width:1024px){
+        .portfolio{
+            width: 100%;
+            .first-page{
+                width: 100%;
+                height:85vw;
+                position: relative;
+            
+                &-title{
+                    width: fit-content;
+                    position: absolute;
+                    bottom: 15vw;
+                    right: 2.5vw;
+                    h2{
+                        color: #fff;
+                        font-weight: 450;
+                      
+                    }
+                    .imgBox{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -28vw;
+                        right: 4vw;
+                        width: 25vw;
+                        height: fit-content;
+                        img{
+                            top: 0;
+                            width: 100%;
+                        }
+                        .para{
+                            position: absolute;
+                            top: 3vw;
+                            h2,h4{
+                                color: #fff;
+                                line-height: 5vw;
+                                text-align: center;
+                            }
+                            h4{
+                                letter-spacing: 0.4vw;
+                                font-weight: normal;
+                              
+                            }
+                        }
+                     
+                        
+                    }
+                }
+                
+            }
+            .second-page{
+                display: flex;
+                flex-direction: column;
+          
+                position: relative;
+                width: 85%;
+                margin: 0 auto 10vw;
+                height: fit-content;
+                &-left{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    padding-top:5.2vw;
+                    .imgBox{
+                        position: relative;
+                        height: fit-content;
+                        width: 100%;
+                    
+                    }
+                }
+                &-right{
+                    display: flex;
+                    align-items: flex-start;
+                    width: 100%;
+                    height: 100%;
+                    padding-top:5.2vw;
+                    &-para{
+                        display: flex;
+                        flex-direction: column;
+                        height: fit-content;
+                        padding-top: 1.5vw;
+                        justify-content: center;
+                        width: 100%;
+                     
+                        &-para1{
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 3vw;
+                            h2{
+                                font-weight: 600;
+                                margin-right: 0.5vw;
+                                color: #0E121D;
+                            }
+                            p{
+                                font-weight: 600;
+                                line-height: 3vw;
+                            }
+                        }
+                        &-para2{
+                            margin-bottom: 5vw;
+                            h3{
+                                margin-bottom: 0.8vw;
+                            }
+                            p{
+                                width: 100%;
+                            }
+                        }
+                        .readmore{
+                            display: flex;
+                            
+                            p{
+                                width: fit-content;
+                              
+                            }
+                            img{
+                                width: 20%;
+                               
+                            }
+                        }
+                    }
+                }
+               
+            }
+            .third-page{
+                display: flex;
+                flex-direction: column;
+          
+                position: relative;
+                width: 85%;
+                margin: 0 auto 10vw;
+                height: fit-content;
+                &-right{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    padding-top:5.2vw;
+                    order: -1;
+                    .imgBox{
+                        position: relative;
+                        height: fit-content;
+                        width: 100%;
+                    
+                    }
+                }
+                &-left{
+                    display: flex;
+                    align-items: flex-start;
+                    width: 100%;
+                    height: 100%;
+                    padding-top:5.2vw;
+                    &-para{
+                        display: flex;
+                        flex-direction: column;
+                        height: fit-content;
+                        padding-top: 1.5vw;
+                        justify-content: center;
+                        width: 100%;
+                     
+                        &-para1{
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 3vw;
+                            h2{
+                                font-weight: 600;
+                                margin-right: 0.5vw;
+                                color: #0E121D;
+                            }
+                            p{
+                                font-weight: 600;
+                                line-height: 3vw;
+                            }
+                        }
+                        &-para2{
+                            margin-bottom: 5vw;
+                            h3{
+                                margin-bottom: 0.8vw;
+                            }
+                            p{
+                                width: 100%;
+                            }
+                        }
+                        .readmore{
+                            display: flex;
+                            
+                            p{
+                                width: fit-content;
+                              
+                            }
+                            img{
+                                width: 20%;
+                               
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+        @media all and (max-width:920px){
+            .portfolio{
+                width: 100%;
+                .first-page{
+                    width: 100%;
+                    height:145vw;
+                    position: relative;
+                
+                    &-title{
+                        width: fit-content;
+                        position: absolute;
+                        bottom: 35vw;
+                        right: 2.5vw;
+                        h2{
+                            color: #fff;
+                            font-weight: 450;
+                          
+                        }
+                        .imgBox{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            position: absolute;
+                            top: -28vw;
+                            right: 4vw;
+                            width: 25vw;
+                            height: fit-content;
+                            img{
+                                top: 0;
+                                width: 100%;
+                            }
+                            .para{
+                                position: absolute;
+                                top: 3vw;
+                                h2,h4{
+                                    color: #fff;
+                                    line-height: 5vw;
+                                    text-align: center;
+                                }
+                                h4{
+                                    letter-spacing: 0.4vw;
+                                    font-weight: normal;
+                                  
+                                }
+                            }
+                         
+                            
+                        }
+                    }
+                    
+                }
+             
+            }
+            @media all and (max-width:480px){
+                .portfolio{
+                    width: 100%;
+                    .first-page{
+                        width: 100%;
+                        height:190vw;
+                        position: relative;
+                    
+                      
+                        &-title{
+                            width: fit-content;
+                            position: absolute;
+                            bottom: 18vw;
+                            right: 2.5vw;
+                            h2{
+                                color: #fff;
+                                font-weight: 450;
+                              
+                            }
+                            .imgBox{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                top: -40vw;
+                                right: 4vw;
+                                width: 35vw;
+                                height: fit-content;
+                                img{
+                                    top: 0;
+                                    width: 100%;
+                                }
+                                .para{
+                                    position: absolute;
+                              
+                                    h2,h4{
+                                        color: #fff;
+                                        line-height: 7vw;
+                                        text-align: center;
+                                    }
+                                    h4{
+                                        letter-spacing: 0.4vw;
+                                        font-weight: normal;
+                                      
+                                    }
+                                }
+                             
+                                
+                            }
+                        }
+                        
+                    }
+                    .second-page{
+                        display: flex;
+                        flex-direction: column;
+                  
+                        position: relative;
+                        width: 85%;
+                        margin: 0 auto 10vw;
+                        height: fit-content;
+                        &-left{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            padding-top:5.2vw;
+                            .imgBox{
+                                position: relative;
+                                height: fit-content;
+                                width: 100%;
+                            
+                            }
+                        }
+                        &-right{
+                            display: flex;
+                            align-items: flex-start;
+                            width: 100%;
+                            height: 100%;
+                            padding-top:5.2vw;
+                            &-para{
+                                display: flex;
+                                flex-direction: column;
+                                height: fit-content;
+                                padding-top: 1.5vw;
+                                justify-content: center;
+                                width: 100%;
+                             
+                                &-para1{
+                                    display: flex;
+                                    align-items: center;
+                                    margin-bottom: 3vw;
+                                    h2{
+                                        font-weight: 600;
+                                        margin-right: 0.5vw;
+                                        color: #0E121D;
+                                    }
+                                    p{
+                                        font-weight: 600;
+                                        line-height: 4.5vw;
+                                    }
+                                }
+                                &-para2{
+                                    margin-bottom: 5vw;
+                                    h3{
+                                        margin-bottom: 0.8vw;
+                                    }
+                                    p{
+                                        width: 100%;
+                                    }
+                                }
+                                .readmore{
+                                    display: flex;
+                                    
+                                    p{
+                                        width: fit-content;
+                                      
+                                    }
+                                    img{
+                                        width: 20%;
+                                       
+                                    }
+                                }
+                            }
+                        }
+                       
+                    }
+                    .third-page{
+                        display: flex;
+                        flex-direction: column;
+                  
+                        position: relative;
+                        width: 85%;
+                        margin: 0 auto 10vw;
+                        height: fit-content;
+                        &-right{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            padding-top:5.2vw;
+                            order: -1;
+                            .imgBox{
+                                position: relative;
+                                height: fit-content;
+                                width: 100%;
+                            
+                            }
+                        }
+                        &-left{
+                            display: flex;
+                            align-items: flex-start;
+                            width: 100%;
+                            height: 100%;
+                            padding-top:5.2vw;
+                            &-para{
+                                display: flex;
+                                flex-direction: column;
+                                height: fit-content;
+                                padding-top: 1.5vw;
+                                justify-content: center;
+                                width: 100%;
+                             
+                                &-para1{
+                                    display: flex;
+                                    align-items: center;
+                                    margin-bottom: 3vw;
+                                    h2{
+                                        font-weight: 600;
+                                        margin-right: 0.5vw;
+                                        color: #0E121D;
+                                    }
+                                    p{
+                                        font-weight: 600;
+                                        line-height: 4.5vw;
+                                    }
+                                }
+                                &-para2{
+                                    margin-bottom: 5vw;
+                                    h3{
+                                        margin-bottom: 0.8vw;
+                                    }
+                                    p{
+                                        width: 100%;
+                                    }
+                                }
+                                .readmore{
+                                    display: flex;
+                                    
+                                    p{
+                                        width: fit-content;
+                                      
+                                    }
+                                    img{
+                                        width: 20%;
+                                       
+                                    }
+                                }
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
+    }
+}
